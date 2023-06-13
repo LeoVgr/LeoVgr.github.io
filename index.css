@@ -34,7 +34,7 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
+    --black: #212121;
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -51,7 +51,7 @@
     --gutter-small-1: 2.5rem;
     --gutter-small: 2rem;
 
-    --border-light: 1px solid rgb(36, 35, 35);
+    --border-light: 1px solid #474747;
 }
 
 html {
@@ -114,6 +114,12 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
+    border-radius: 8px;
+}
+
+.img_wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .video_wrapper {
